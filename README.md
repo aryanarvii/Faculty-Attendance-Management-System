@@ -46,21 +46,4 @@ The Faculty Attendance Management System (AMS) is designed to streamline attenda
 
 ---
 
-AMS/
-├─ public/
-├─ scripts/
-├─ src/
-│  ├─ assets/
-│  ├─ components/
-│  ├─ context/
-│  ├─ firebase/
-│  ├─ pages/
-│  ├─ services/
-│  └─ utils/
-├─ App.jsx
-├─ main.jsx
-├─ .env
-├─ package.json
-└─ README.md
-
 
