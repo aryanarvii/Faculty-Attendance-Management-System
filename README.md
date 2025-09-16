@@ -7,12 +7,12 @@
 ## **Sample Login Credentials**
 
 **Admin Account:**  
-- **Username:** admin@college.com  
-- **Password:** Admin@123  
+- **Username:** aryanarvi78@gmail.com  
+- **Password:** 12345678  
 
 **Employee Account:**  
-- **Username:** employee@college.com  
-- **Password:** Employee@123  
+- **Username:** aryanarvind@gmail.com 
+- **Password:** 12345678 
 
 > Use the above credentials to explore the portal functionality.
 
