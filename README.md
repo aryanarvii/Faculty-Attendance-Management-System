@@ -1,12 +1,66 @@
-# React + Vite
+# Faculty Attendance Management System (AMS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A web-based system to manage faculty attendance efficiently, using face verification and location tracking.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## **Sample Login Credentials**
 
-## Expanding the ESLint configuration
+**Admin Account:**  
+- **Username:** admin@college.com  
+- **Password:** Admin@123  
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Employee Account:**  
+- **Username:** employee@college.com  
+- **Password:** Employee@123  
+
+> Use the above credentials to explore the portal functionality.
+
+---
+
+## **Project Overview**
+
+The Faculty Attendance Management System (AMS) is designed to streamline attendance tracking for faculty members in colleges and universities. The system combines **face verification** with **geolocation tracking** to ensure accurate and secure attendance logging. It also supports role-based access for admins and employees.
+
+### **Key Features**
+- **Admin Panel**
+  - View all faculty attendance records
+  - Approve or reject attendance corrections
+  - Manage faculty accounts and roles
+- **Employee Panel**
+  - Mark attendance using face verification
+  - Track login/logout timings
+  - Receive notifications for attendance status
+- **Face Verification**
+  - Uses **CompreFace API** for secure facial authentication
+- **Location Tracking**
+  - Ensures attendance is marked only from authorized campus locations
+
+---
+
+## **Tech Stack**
+- **Frontend:** React.js  
+- **Backend:** Firebase (Authentication + Firestore)  
+- **Face Verification:** CompreFace API (TensorFlow.js based)  
+- **Deployment:** Vercel  
+
+---
+
+AMS/
+├─ public/
+├─ scripts/
+├─ src/
+│  ├─ assets/
+│  ├─ components/
+│  ├─ context/
+│  ├─ firebase/
+│  ├─ pages/
+│  ├─ services/
+│  └─ utils/
+├─ App.jsx
+├─ main.jsx
+├─ .env
+├─ package.json
+└─ README.md
+
+
