@@ -11,7 +11,7 @@ import {
   orderBy
 } from "firebase/firestore";
 import { db } from "./config";
-// import { biometricService } from './biometricService';
+
 import { getFormattedDate } from '../utils/dateUtils';
 import { faceService } from './faceService';
 

@@ -17,9 +17,9 @@ const Navbar = () => {
       </Link>
 
       
-      <div>
+      {/* <div>
         <h1 className='absolute top-4 left-[37%] text-richblack-5 text-2xl font-bold'>Faculty Attendance Portal</h1>
-      </div>
+      </div> */}
 
       <div className="flex items-center gap-x-4">
       
